@@ -1,13 +1,49 @@
 #include "PID.hpp"
+#include <iostream>
 
-double PIDController::actualVelocity(double tagetVelocity, double actualVelocity){
-    return 0.0;
+// Function to calculate the actual velocity using PID control
+double PIDController::actualVelocity(double targetVelocity, double actualVelocity) {
+    double error;
+
+    // Loop until the error is within an acceptable range
+    do {
+        // Calculate the error between target and actual velocity
+        error = targetVelocity - actualVelocity;
+
+        // Calculate the integral of the error over time
+        double sumError = this->sumError(error);
+
+        // Calculate the control output using PID formula
+        double controlOutput = this->controlOutput(error, sumError, lastError);
+
+        // Update the actual velocity with the control output
+        actualVelocity += controlOutput;
+
+        // Store the current error as the last error for the next iteration
+        lastError = error;
+
+    } while (error < 0.3); // Continue until the error is within the acceptable range
+
+    // Return the final actual velocity
+    return actualVelocity;
 }
 
-double PIDController::sumError(double error){
-    return 0.0;
+// Function to calculate the integral of the error over time
+double PIDController::sumError(double error) {
+    static double sumError = 0;
+
+    // Accumulate the error over time with a time constant of 0.1
+    sumError += error * 0.1;
+
+    // Return the accumulated sum of errors
+    return sumError;
 }
 
-double PIDController::controlOutput(double error, double sumError, double lastError){
-    return 0.0;
+// Function to calculate the control output using the PID formula
+double PIDController::controlOutput(double error, double sumError, double lastError) {
+    // Calculate the control output based on the PID formula
+    double controlOutput = this->kp * error + this->ki * sumError + this->kd * (error - lastError);
+
+    // Return the calculated control output
+    return controlOutput;
 }
