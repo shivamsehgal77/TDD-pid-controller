@@ -1,4 +1,6 @@
 /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/docs.dir
+/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/test_coverage.dir
+/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/app_coverage.dir
 /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/test.dir
 /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/edit_cache.dir
 /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/rebuild_cache.dir

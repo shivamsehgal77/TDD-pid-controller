@@ -59,6 +59,14 @@ private:
      * 
      */
     double kd;
+
+    /**
+     * @brief last error
+     * 
+     */
+    double lastError = 0;
 };
+
+
 
 

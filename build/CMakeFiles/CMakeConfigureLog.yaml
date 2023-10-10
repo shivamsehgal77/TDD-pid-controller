@@ -641,3 +641,41 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-modules/CodeCoverage.cmake:174 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:80 (include)"
+    checks:
+      - "Performing Test HAVE_fprofile_abs_path"
+    directories:
+      source: "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/CMakeScratch/TryCompile-c1OoEd"
+      binary: "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/CMakeScratch/TryCompile-c1OoEd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/cmake-modules"
+    buildResult:
+      variable: "HAVE_fprofile_abs_path"
+      cached: true
+      stdout: |
+        Change Dir: /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/CMakeScratch/TryCompile-c1OoEd
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8ea3e/fast && /usr/bin/make  -f CMakeFiles/cmTC_8ea3e.dir/build.make CMakeFiles/cmTC_8ea3e.dir/build
+        make[1]: Entering directory '/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/CMakeScratch/TryCompile-c1OoEd'
+        Building CXX object CMakeFiles/cmTC_8ea3e.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_fprofile_abs_path  -std=gnu++14   -fprofile-abs-path -o CMakeFiles/cmTC_8ea3e.dir/src.cxx.o -c /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/CMakeScratch/TryCompile-c1OoEd/src.cxx
+        Linking CXX executable cmTC_8ea3e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ea3e.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_8ea3e.dir/src.cxx.o -o cmTC_8ea3e 
+        make[1]: Leaving directory '/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/CMakeFiles/CMakeScratch/TryCompile-c1OoEd'
+        
+      exitCode: 0
+...
