@@ -199,7 +199,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=scratch
+CMAKE_PROJECT_NAME:STATIC=PIDController
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.14.0
@@ -312,6 +312,15 @@ GTEST_HAS_ABSL:BOOL=OFF
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
 
+//Value Computed by CMake
+PIDController_BINARY_DIR:STATIC=/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build
+
+//Value Computed by CMake
+PIDController_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+PIDController_SOURCE_DIR:STATIC=/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2
+
 //this option enable coverage
 WANT_COVERAGE:BOOL=ON
 
@@ -360,15 +369,6 @@ gtest_force_shared_crt:BOOL=ON
 
 //Build gtest with internal symbols hidden in shared libraries.
 gtest_hide_internal_symbols:BOOL=OFF
-
-//Value Computed by CMake
-scratch_BINARY_DIR:STATIC=/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build
-
-//Value Computed by CMake
-scratch_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-scratch_SOURCE_DIR:STATIC=/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2
 
 
 ########################

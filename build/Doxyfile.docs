@@ -3,7 +3,7 @@
 #
 
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = scratch
+PROJECT_NAME           = PIDController
 PROJECT_NUMBER         = 
 PROJECT_BRIEF          = 
 PROJECT_LOGO           = 
