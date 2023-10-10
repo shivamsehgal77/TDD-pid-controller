@@ -1,15 +1,14 @@
 #include <gtest/gtest.h>
-#include "lib1.hpp"
-#include "lib2.hpp"
+#include "PID.hpp"
 
-TEST(dummy_test, this_should_pass) {
-  EXPECT_EQ(1, 1);
+TEST(first_test, this_should_pass) {
+  PIDController controller(0.1,0.01,0.2);
+  double outout_velocity = controller.actualVelocity(15.0, 10.0);
+  ASSERT_NEAR(15.0, outout_velocity, 1); 
 }
 
-TEST(dummy_test, this_should_pass_too) {
-  EXPECT_EQ(my_function1(3), 3);
-}
-
-TEST(dummy_test, this_will_fail) {
-  EXPECT_EQ(my_function2(3.2), 3.2);
+TEST(second_test, this_should_pass) {
+  PIDController controller(0.1,0.01,0.2);
+  double outout_velocity = controller.actualVelocity(90.0, 100.0);
+  ASSERT_NEAR(90.0, outout_velocity, 1); 
 }

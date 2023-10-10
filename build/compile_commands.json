@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/libs/lib1",
+  "command": "/usr/bin/c++  -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib1/. -std=gnu++14 -o CMakeFiles/myLib1.dir/src.cpp.o -c /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib1/src.cpp",
+  "file": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib1/src.cpp",
+  "output": "libs/lib1/CMakeFiles/myLib1.dir/src.cpp.o"
+},
+{
+  "directory": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/libs/lib2",
+  "command": "/usr/bin/c++  -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib2/. -std=gnu++14 -o CMakeFiles/myLib2.dir/src.cpp.o -c /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib2/src.cpp",
+  "file": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib2/src.cpp",
+  "output": "libs/lib2/CMakeFiles/myLib2.dir/src.cpp.o"
+},
+{
+  "directory": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/libs/lib3",
+  "command": "/usr/bin/c++  -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib3/. -std=gnu++14 -o CMakeFiles/myLib3.dir/src.cpp.o -c /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib3/src.cpp",
+  "file": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib3/src.cpp",
+  "output": "libs/lib3/CMakeFiles/myLib3.dir/src.cpp.o"
+},
+{
+  "directory": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/app",
+  "command": "/usr/bin/c++  -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/include -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib1/. -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib2/. -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib3/. -std=gnu++14 -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/app/main.cpp",
+  "file": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/app/main.cpp",
+  "output": "app/CMakeFiles/shell-app.dir/main.cpp.o"
+},
+{
+  "directory": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/test",
+  "command": "/usr/bin/c++  -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/include -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib1/. -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib2/. -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib3/. -isystem /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/_deps/googletest-src/googletest/include -isystem /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/_deps/googletest-src/googletest -std=gnu++14 -o CMakeFiles/cpp-test.dir/main.cpp.o -c /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/test/main.cpp",
+  "file": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/test/main.cpp",
+  "output": "test/CMakeFiles/cpp-test.dir/main.cpp.o"
+},
+{
+  "directory": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/test",
+  "command": "/usr/bin/c++  -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/include -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib1/. -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib2/. -I/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/libs/lib3/. -isystem /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/_deps/googletest-src/googletest/include -isystem /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/_deps/googletest-src/googletest -std=gnu++14 -o CMakeFiles/cpp-test.dir/test.cpp.o -c /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/test/test.cpp",
+  "file": "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/test/test.cpp",
+  "output": "test/CMakeFiles/cpp-test.dir/test.cpp.o"
+}
+]

@@ -1,10 +1,9 @@
-#include "lib.hpp"
-#include "lib1.hpp"
-#include "lib2.hpp"
+#include "PID.hpp"
+#include <iostream>
 
 int main() {
-  dummy();
-  my_function1(30);
-  my_function2(30.3);
-  return 0;
+  PIDController controller_1 = PIDController(1.0, 1.0, 1.0);
+  double actualVelocity = controller_1.actualVelocity(15.0, 10.0);
+  std::cout<<"Actual Velocity : "<<actualVelocity<<std::endl;
 }
+
