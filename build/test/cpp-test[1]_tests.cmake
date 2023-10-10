@@ -1,5 +1,0 @@
-add_test([=[first_test.this_should_pass]=]  /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/test/cpp-test [==[--gtest_filter=first_test.this_should_pass]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[first_test.this_should_pass]=]  PROPERTIES WORKING_DIRECTORY /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[second_test.this_should_pass]=]  /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/test/cpp-test [==[--gtest_filter=second_test.this_should_pass]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[second_test.this_should_pass]=]  PROPERTIES WORKING_DIRECTORY /home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  cpp-test_TESTS first_test.this_should_pass second_test.this_should_pass)

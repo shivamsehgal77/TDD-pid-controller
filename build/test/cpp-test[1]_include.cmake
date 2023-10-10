@@ -1,5 +1,0 @@
-if(EXISTS "/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/test/cpp-test[1]_tests.cmake")
-  include("/home/shivam/Shunya/Root/umd-coursework/Software-Development-Robotics/Test-Driven-Development/cpp-boilerplate-v2/build/test/cpp-test[1]_tests.cmake")
-else()
-  add_test(cpp-test_NOT_BUILT cpp-test_NOT_BUILT)
-endif()
